@@ -26,11 +26,9 @@ div[aria-label="Activities"] div[aria-label]:has(div[class*="promotedLabelWrappe
 /* this assumes it's always the first section because unfortunately we can't match text content using plain css selectors */
 div:has(>h2[data-text-variant='heading-lg/semibold']):has(div[class$='-appDetails']):nth-child(1) {display: none}
 
-/* quest badges on profiles. we just block the navigation to the quests page instead of hiding the whole badge because it's a mark of shame so we still want to be able to see it */
-div[aria-label='Completed a Quest'] {cursor: not-allowed}
-div[aria-label='Completed a Quest']>a {pointer-events: none}
-div[aria-label='Collected the Orb Profile Badge'] {cursor: not-allowed}
-div[aria-label='Collected the Orb Profile Badge']>a {pointer-events: none}
+/* quest badges on profiles */
+a[aria-label='Completed a Quest'] {display: none}
+a[aria-label='Collected the Orb Profile Badge'] {display: none}
 
 /* quest that appears on members list when playing a game */
 div[id^='popout_']:has(img[src^='https://cdn.discordapp.com/quests/']) {display: none}
