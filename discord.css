@@ -20,7 +20,7 @@ div[class*="-container"][style*="discovery/quests-wumpus-hikes-mountain"] {displ
 section[aria-label="Application Launcher"] div:has(>div[class*="-sectionTwoColumnContentContainer"]) {display: none}
 
 /* promoted games in call activities menu */
-div[aria-label="Activities"] div[aria-label]:has(div[class*="promotedLabelWrapperBanner_"]) {display: none}
+div[aria-label="Activities"] div[aria-label]:has(div[class$="-promotedLabelWrapperBanner"]) {display: none}
 
 /* promoted games on the discover page */
 /* this assumes it's always the first section because unfortunately we can't match text content using plain css selectors */
