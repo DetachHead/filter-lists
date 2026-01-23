@@ -104,6 +104,7 @@ qantas.viasat.com##.HASH_VIDEO_PAGE_GRID_CONTAINER_VIDEO_WRAPPER
 www.rustcodeweb.com##.sidebar-sponsor-post-container
 www.mde.tv##div[class^=_ads_]:has(div[class^=_panel])
 www.reddit.com##li:has(ad-event-tracker)
+www.instagram.com##article:has(span:has-text(/^Ad$/):not(dir))
 ||www.bom.gov.au/includes/marketing.html
 ||assets.msn.com/content/v1/cms/api/amp/Document/*$domain=bing.com
 ||media.ethicalads.io/media/client/ethicalads.min.js
