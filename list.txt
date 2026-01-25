@@ -83,15 +83,21 @@ discord.com##section[aria-label="Application Launcher"] div:has(>div:has-text(/^
 discord.com##div[id^='popout_']:has(h2:has-text(/^Quest Available!/))
 discord.com##nav>div:has-text(/^Quests$/)
 discord.com##div[class*="-container"][style*="discovery/quests-wumpus-hikes-mountain"]
+discord.com##div[class^="container_"][style*="discovery/quests-wumpus-hikes-mountain"]
 discord.com##section[class$='-contentSection'] div:has(>h2:has-text(/^Promoted Games$/))
+discord.com##section[class^='contentSection_'] div:has(>h2:has-text(/^Promoted Games$/))
 discord.com##a[aria-label='Completed a Quest']
 discord.com##a[aria-label='Collected the Orb Profile Badge']
 discord.com##svg[class$='-questsIcon']
+discord.com##svg[class^='questsIcon_']
 discord.com##div[class^='nowPlayingColumn__'] div[class^='wrapper_']:has(div[class*=' promotedTag_'])
 discord.com##div[class*="-tabWrapper"]:has-text(/^Orbs Exclusives$/)
+discord.com##div[class^="tabWrapper_"]:has-text(/^Orbs Exclusives$/)
 discord.com###balance-widget-pill
 discord.com##div[class*="-blockContainer"]:has(h2:has-text(/^Discord Orbs Exclusives$/))
+discord.com##div[class^="blockContainer_"]:has(h2:has-text(/^Discord Orbs Exclusives$/))
 discord.com##nav[class$='-privateChannels'] li:has(a[href='/quest-home'])
+discord.com##nav[class^='privateChannels_'] li:has(a[href='/quest-home'])
 discord.dom##div[class^=clickTrapContainer__]:has(img[src$='content/1ffd8203232095caf2e602b4a9f85669cc625f56a09decde670c0e9cd72b754f.svg'])
 www.fishtank.live##div[class^='ads_']
 downforeveryoneorjustme.com##div:has(>a[rel=sponsored])
