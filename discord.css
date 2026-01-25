@@ -15,16 +15,20 @@ nav>div:has(>div>svg>path[d^='M7.5 21']) {display: none}
 
 /* "quests have moved" notice in gift inventory */
 div[class*="-container"][style*="discovery/quests-wumpus-hikes-mountain"] {display: none}
+div[class^="container_"][style*="discovery/quests-wumpus-hikes-mountain"] {display: none}
 
 /* promoted games in messages activities menu */
 section[aria-label="Application Launcher"] div:has(>div[class*="-sectionTwoColumnContentContainer"]) {display: none}
+section[aria-label="Application Launcher"] div:has(>div[class*="sectionTwoColumnContentContainer_"]) {display: none}
 
 /* promoted games in call activities menu */
 div[aria-label="Activities"] div[aria-label]:has(div[class$="-promotedLabelWrapperBanner"]) {display: none}
+div[aria-label="Activities"] div[aria-label]:has(div[class*="promotedLabelWrapperBanner_"]) {display: none}
 
 /* promoted games on the discover page */
 /* this assumes it's always the first section because unfortunately we can't match text content using plain css selectors */
 div:has(>h2[data-text-variant='heading-lg/semibold']):has(div[class$='-appDetails']):nth-child(1) {display: none}
+div:has(>h2[data-text-variant='heading-lg/semibold']):has(div[class^='appDetails_']):nth-child(1) {display: none}
 
 /* quest badges on profiles */
 a[aria-label='Completed a Quest'] {display: none}
@@ -33,17 +37,21 @@ a[aria-label='Collected the Orb Profile Badge'] {display: none}
 /* quest that appears on members list when playing a game */
 div[id^='popout_']:has(img[src^='https://cdn.discordapp.com/quests/']) {display: none}
 svg[class$='-questsIcon'] {display: none}
+svg[class^='questsIcon_'] {display: none}
 
 /* quests on active now sidebar */
 div[class^='nowPlayingColumn__'] div[class^='wrapper_']:has(div[class*=' promotedTag_']) {display:none}
 
 /* orbs in the shop (can only be acquired with quests which are blocked) */
 div[class$='-shop'] div[class$='-tabs']>div:has(h1):nth-child(3) {display: none}
+div[class^='shop_'] div[class^='tabs_']>div:has(h1):nth-child(3) {display: none}
 #balance-widget-pill {display: none}
 div[class*="-blockContainer"]:has(h2~button) {display: none}
+div[class^="blockContainer_"]:has(>div>div>button) {display: none}
 
 /* quests on home page (above DMs) */
 nav[class$='-privateChannels'] li:has(a[href='/quest-home']) {display: none}
+nav[class^='privateChannels_'] li:has(a[href='/quest-home']) {display: none}
 
 /* 
 popup about how quests have moved or some shit. probably not a reliable selector since this svg id is likely generated
