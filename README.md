@@ -1,13 +1,14 @@
 # detachhead's filter lists
 
-note: this project was originally called `ublock-filters` but it's not specific to ublock. https://github.com/DetachHead/ublock-filters/issues/4
+> [!IMPORTANT]
+This project was originally called `ublock-filters` but it has since been renamed as it's no loger specific to uBlock Origin. Github should redirect old links, but I recommend updating your settings to point to the new URLs (details below) just to be safe.
 
 ## ublock/adguard filters
 
 - [`list.txt`](./list.txt) - ads, malicious sites and right click/devtools blockers
 - [`annoyances.txt`](./annoyances.txt) - annoying buttons, buttons in navs that are rarely used
 
-### [subscribe](https://detachhead.github.io/ublock-filters/)
+### [subscribe](https://detachhead.github.io/filter-lists/)
 
 ## discord adblocker
 
@@ -20,7 +21,7 @@ note that the purpose of this list is strictly to block ads (eg. quests and prom
 add the following URL to your client mod's theme settings:
 
 ```
-https://raw.githubusercontent.com/DetachHead/ublock-filters/refs/heads/master/discord.css
+https://raw.githubusercontent.com/DetachHead/filter-lists/refs/heads/master/discord.css
 ```
 
 ### blocking youtube ads in discord

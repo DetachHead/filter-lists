@@ -1,9 +1,7 @@
 {
-  "name": "ublock-filters",
+  "name": "filter-lists",
   "version": "1.0.0",
   "private": true,
-  "description": "note: this project was originally called `ublock-filters` but it's not specific to ublock. https://github.com/DetachHead/ublock-filters/issues/4",
-  "main": "index.js",
   "scripts": {
     "check": "aglint"
   },

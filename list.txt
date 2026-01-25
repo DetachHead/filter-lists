@@ -1,9 +1,9 @@
 ! Title: detachhead's filter list
 ! Expires: 1 day
-! Homepage: https://github.com/DetachHead/ublock-filters
+! Homepage: https://github.com/DetachHead/filter-lists
 !
-! GitHub issues: https://github.com/DetachHead/ublock-filters/issues
-! GitHub pull requests: https://github.com/DetachHead/ublock-filters/pulls
+! GitHub issues: https://github.com/DetachHead/filter-lists/issues
+! GitHub pull requests: https://github.com/DetachHead/filter-lists/pulls
 
 ! ads:
 drinkinggamezone.com###spons-container
