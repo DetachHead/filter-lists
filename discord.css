@@ -45,7 +45,7 @@ div[class^='nowPlayingColumn__'] div[class^='wrapper_']:has(div[class*=' promote
 /* orbs in the shop (can only be acquired with quests which are blocked) */
 div[class$='-shop'] div[class$='-tabs']>div:has(h1):nth-child(3) {display: none}
 div[class^='shop_'] div[class^='tabs_']>div:has(h1):nth-child(3) {display: none}
-#balance-widget-pill {display: none}
+div:has(>#balance-widget-pill) {display: none}
 div[class*="-blockContainer"]:has(h2~button) {display: none}
 div[class^="blockContainer_"]:has(>div>div>button) {display: none}
 

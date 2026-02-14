@@ -93,7 +93,7 @@ discord.com##svg[class^='questsIcon_']
 discord.com##div[class^='nowPlayingColumn__'] div[class^='wrapper_']:has(div[class*=' promotedTag_'])
 discord.com##div[class*="-tabWrapper"]:has-text(/^Orbs Exclusives$/)
 discord.com##div[class^="tabWrapper_"]:has-text(/^Orbs Exclusives$/)
-discord.com###balance-widget-pill
+discord.com##div:has(>#balance-widget-pill)
 discord.com##div[class*="-blockContainer"]:has(h2:has-text(/^Discord Orbs Exclusives$/))
 discord.com##div[class^="blockContainer_"]:has(h2:has-text(/^Discord Orbs Exclusives$/))
 discord.com##nav[class$='-privateChannels'] li:has(a[href='/quest-home'])
