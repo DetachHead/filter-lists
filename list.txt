@@ -69,11 +69,12 @@ dev.to##.js-billboard-container:has(span:has-text(/^Promoted$/))
 www.google.com##:xpath(//span[@id='overview']//c-wiz[@data-lrt][.//span[normalize-space(.)='Sponsored·']])
 www.google.com##:xpath(//div[./a[@data-force-new-tab] and .//span[normalize-space(.)='Sponsored·']])
 www.booking.com##div[data-testid=property-card]:has(span:has-text(/^Ad$/))
-www.ubereats.com##main>div>div>div:has(button:has-text(/^Ad$/))
 www.kogan.com##div.rs-infinite-scroll>div:has(small:has-text(/^Sponsored/))
 www.youtube.com##ytd-ad-slot-renderer
 webpack.js.org##.sponsors
+www.ubereats.com##main>div>div>div:has(button:has-text(/^Ad$/))
 www.ubereats.com##main>div>div>div:has(div:has-text(/^Ad$/))
+www.ubereats.com##ul>div:has(a>span:has-text(/^Sponsored$/))
 star-history.com##div:has(>div>p:has-text(/^Sponsors \(random order\)$/))
 discord.com##div[class^=wrapper_]:has([class^=questPromoContent_])
 discord.com##div[class^='questsContainer']
