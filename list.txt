@@ -97,6 +97,7 @@ discord.com##div[class^="tabWrapper_"]:has-text(/^Orbs Exclusives$/)
 discord.com##div:has(>#balance-widget-pill)
 discord.com##div[class*="-blockContainer"]:has(h2:has-text(/^Discord Orbs Exclusives$/))
 discord.com##div[class^="blockContainer_"]:has(h2:has-text(/^Discord Orbs Exclusives$/))
+discord.com##div[aria-label="Orbs Exclusives"]
 discord.com##nav[class$='-privateChannels'] li:has(a[href='/quest-home'])
 discord.com##nav[class^='privateChannels_'] li:has(a[href='/quest-home'])
 discord.dom##div[class^=clickTrapContainer__]:has(img[src$='content/1ffd8203232095caf2e602b4a9f85669cc625f56a09decde670c0e9cd72b754f.svg'])
