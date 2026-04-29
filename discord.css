@@ -48,6 +48,7 @@ div[class^='shop_'] div[class^='tabs_']>div:has(h1):nth-child(3) {display: none}
 div:has(>#balance-widget-pill) {display: none}
 div[class*="-blockContainer"]:has(h2~button) {display: none}
 div[class^="blockContainer_"]:has(>div>div>button) {display: none}
+div[aria-label="Orbs Exclusives"] {display: none}
 
 /* quests on home page (above DMs) */
 nav[class$='-privateChannels'] li:has(a[href='/quest-home']) {display: none}
