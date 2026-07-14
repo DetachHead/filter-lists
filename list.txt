@@ -85,8 +85,8 @@ discord.com##div[id^='popout_']:has(h2:has-text(/^Quest Available!/))
 discord.com##nav>div:has-text(/^Quests$/)
 discord.com##div[class*="-container"][style*="discovery/quests-wumpus-hikes-mountain"]
 discord.com##div[class^="container_"][style*="discovery/quests-wumpus-hikes-mountain"]
-discord.com##section[class$='-contentSection'] div:has(>h2:has-text(/^Promoted Games$/))
-discord.com##section[class^='contentSection_'] div:has(>h2:has-text(/^Promoted Games$/))
+discord.com##section[class$='-contentSection'] div:has(>h3:has-text(/^Promoted Games$/))
+discord.com##section[class^='contentSection_'] div:has(>h3:has-text(/^Promoted Games$/))
 discord.com##a[aria-label='Completed a Quest']
 discord.com##a[aria-label='Collected the Orb Profile Badge']
 discord.com##svg[class$='-questsIcon']

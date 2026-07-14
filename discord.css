@@ -27,8 +27,8 @@ div[aria-label="Activities"] div[aria-label]:has(div[class*="promotedLabelWrappe
 
 /* promoted games on the discover page */
 /* this assumes it's always the first section because unfortunately we can't match text content using plain css selectors */
-div:has(>h2[data-text-variant='heading-lg/semibold']):has(div[class$='-appDetails']):nth-child(1) {display: none}
-div:has(>h2[data-text-variant='heading-lg/semibold']):has(div[class^='appDetails_']):nth-child(1) {display: none}
+div:has(>h3[data-text-variant='heading-lg/semibold']):has(div[class$='-appDetails']):nth-child(1) {display: none}
+div:has(>h3[data-text-variant='heading-lg/semibold']):has(div[class^='appDetails_']):nth-child(1) {display: none}
 
 /* quest badges on profiles */
 a[aria-label='Completed a Quest'] {display: none}
