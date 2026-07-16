@@ -115,6 +115,7 @@ www.reddit.com##li:has(ad-event-tracker)
 hunted.space##div:has(>div[class*='!border-2'] span:has-text(/^Sponsored$/))
 consequence.net##div.native-ad-large
 chatgpt.com##[data-testid="bazaar-action-bar-observer"]~div:has(span:has-text(/^Ad$/))
+chatgpt.com##[class$="_assistantAds"]
 ||assets.msn.com/content/v1/cms/api/amp/Document/*$domain=bing.com
 ||media.ethicalads.io/media/client/ethicalads.min.js
 
