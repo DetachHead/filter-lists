@@ -13,7 +13,6 @@ lnk.snahp.eu##script[data-cfasync="false"]
 www.partitionwizard.com##div.promotions-banner-wrap
 www.woolworths.com.au##div[class*=product-grid--tile]:has(div[class*=shelfProductTile-sponsored])
 www.howtoedge.com##table:has(a[rel*=sponsored])
-regex101.com##div:has(>div>div>a>div[style*='/static/assets/sponsors/'])
 simkl.com##div.SimklTVDetailEpisodeLinksItem:has(td.SimklTVDetailEpisodeLinkNumber:has-text(/^AD$/))
 www.slipstick.com##section:has(.widget-title:has-text(/^Our Sponsors$/))
 w2g.tv##div[id=w2g-center-doit]
@@ -116,7 +115,6 @@ hunted.space##div:has(>div[class*='!border-2'] span:has-text(/^Sponsored$/))
 consequence.net##div.native-ad-large
 chatgpt.com##[data-testid="bazaar-action-bar-observer"]~div:has(*:has-text(/^Ad$/))
 chatgpt.com##[class$="_assistantAds"]
-www.startpage.com##div:has(>div>span:has-text(/^Promoted$/))
 ||assets.msn.com/content/v1/cms/api/amp/Document/*$domain=bing.com
 ||media.ethicalads.io/media/client/ethicalads.min.js
 
