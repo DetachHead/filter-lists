@@ -5,8 +5,16 @@ This project was originally called `ublock-filters` but it has since been rename
 
 ## ublock/adguard filters
 
-- [`list.txt`](./list.txt) - ads, malicious sites and right click/devtools blockers
-- [`annoyances.txt`](./annoyances.txt) - annoying buttons, buttons in navs that are rarely used
+### [`list.txt`](./list.txt)
+
+Ads, malicious sites and right click/devtools blockers (recommended for all users)
+
+> [!NOTE]
+> This list does not block many ads on its own -- it's intended to be used in addition to the the mainstream ad blocking lists (eg. easylist, adguard, etc.). I try to upstream them to one of those lists when I can, but not all of the ads this list blocks are considered ads by some upstream list maintainers for some reason ([example](https://github.com/easylist/easylist/pull/24724))
+
+### [`annoyances.txt`](./annoyances.txt)
+
+Annoying buttons, buttons in navs that are rarely used (more opinionated, so you may not agree with everything it blocks)
 
 ### [subscribe](https://detachhead.github.io/filter-lists/)
 
