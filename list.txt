@@ -60,7 +60,7 @@ www.independent.co.uk##.article:has(a:has-text(/^(SPONSORED|Promoted content)$/)
 top.gg##article:has(div[title=Promoted])
 facebook.com,m.facebook.com#?#div[data-type='vscroller']>div:has(span:contains(/^Sponsored/))
 www.facebook.com##div:has(>a span:has-text(/^Sponsored$/))
-www.facebook.com##div:has(>h3)>div:not([class])>div:has(:xpath(.//span[@aria-labelledby=/html/body/div/div/span[.='Sponsored']/@id]))
+www.facebook.com##div:has(>h3)>div:not([class])>div:has(:xpath(.//span[@aria-labelledby=/html/body/div/div/span[.='Sponsored' or .='Ad']/@id]))
 stackoverflow.com##li.s-sidebarwidget--item:has(>div>div:has-text(/^sponsored post$/))
 dev.to##.crayons-layout__comments-billboard
 dev.to##.js-billboard-container:has(span:has-text(/^Promoted$/))
