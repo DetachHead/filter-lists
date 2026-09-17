@@ -116,6 +116,7 @@ hunted.space##div:has(>div[class*='!border-2'] span:has-text(/^Sponsored$/))
 consequence.net##div.native-ad-large
 chatgpt.com##[data-testid="bazaar-action-bar-observer"]~div:has(*:has-text(/^Ad$/))
 chatgpt.com##.transition-opacity:has(*:has-text(/^Ad$/))
+chatgpt.com##div[data-conversation-screenshot-content]>:has(*:has-text(/^Ad$/))
 browsererrors.net##aside:has(>small:has-text(/^Advertisement$/))
 ||assets.msn.com/content/v1/cms/api/amp/Document/*$domain=bing.com
 ||media.ethicalads.io/media/client/ethicalads.min.js
