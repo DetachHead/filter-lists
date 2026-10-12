@@ -24,6 +24,12 @@ Annoying buttons, buttons in navs that are rarely used (more opinionated, so you
 
 note that the purpose of this list is strictly to block ads (eg. quests and promoted activites). if you would like to also block other elements such as nitro promotions, i recommend checking out [Disblock Origin](https://codeberg.org/AllPurposeMat/Disblock-Origin).
 
+> [!TIP]
+>
+> If you're looking for a discord alternative that isn't full of ads, I recommend [fluxer](https://fluxer.app/). It has most of discord's features while also being fully open source/self-hostable. I will probably stop using discord entirely once fluxer has [federation](https://fluxer.app/blog/roadmap-2026#4-federation).
+>
+> I will continue to maintain these discord filter lists in the mean time, but updates may become less frequent as I don't use it as much nowadays.
+
 ### installation
 
 add the following URL to your client mod's theme settings:
