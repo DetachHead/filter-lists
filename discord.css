@@ -41,6 +41,7 @@ svg[class^='questsIcon_'] {display: none}
 
 /* quests on active now sidebar */
 div[class^='nowPlayingColumn__'] div[class^='wrapper_']:has(div[class*=' promotedTag_']) {display:none}
+div[class^='itemCard__']:has(img[class^='orbIconSVG__']) {display: none}
 
 /* orbs in the shop (can only be acquired with quests which are blocked) */
 div[class$='-shop'] div[class$='-tabs']>div:has(h1):nth-child(3) {display: none}

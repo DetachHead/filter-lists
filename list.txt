@@ -92,6 +92,7 @@ discord.com##a[aria-label='Collected the Orb Profile Badge']
 discord.com##svg[class$='-questsIcon']
 discord.com##svg[class^='questsIcon_']
 discord.com##div[class^='nowPlayingColumn__'] div[class^='wrapper_']:has(div[class*=' promotedTag_'])
+discord.com##div[class^='itemCard__']:has(img[class^='orbIconSVG__'])
 discord.com##div[class*="-tabWrapper"]:has-text(/^Orbs Exclusives$/)
 discord.com##div[class^="tabWrapper_"]:has-text(/^Orbs Exclusives$/)
 discord.com##div:has(>#balance-widget-pill)
