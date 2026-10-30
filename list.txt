@@ -126,6 +126,7 @@ distrosea.com##a[rel=sponsored]
 ! right click/devtools blockers:
 fmovies.*,fmoviesz.to,fmovies24.to##+js(nostif, /devToolsDetected/)
 instagram.com##:xpath('//div[./img]/following-sibling::div[not(./*)]')
+facebook.com##div[data-is-pull-to-refresh-allowed] [data-mcomponent="ServerImageArea"] img:style(pointer-events: all !important)
 
 ! malicious sites:
 ||github.sre.pub
