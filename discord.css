@@ -22,8 +22,8 @@ section[aria-label="Application Launcher"] div:has(>div[class*="-sectionTwoColum
 section[aria-label="Application Launcher"] div:has(>div[class*="sectionTwoColumnContentContainer_"]) {display: none}
 
 /* promoted games in call activities menu */
-div[aria-label="Activities"] div[aria-label]:has(div[class$="-promotedLabelWrapperBanner"]) {display: none}
-div[aria-label="Activities"] div[aria-label]:has(div[class*="promotedLabelWrapperBanner_"]) {display: none}
+div[aria-label="Activities"] div[aria-label]:has(div[class$="-bannerUpperRightContainer"]) {display: none}
+div[aria-label="Activities"] div[aria-label]:has(div[class*="bannerUpperRightContainer_"]) {display: none}
 
 /* promoted games on the discover page */
 /* this assumes it's always the first section because unfortunately we can't match text content using plain css selectors */

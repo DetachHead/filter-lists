@@ -79,7 +79,7 @@ star-history.com##div:has(>div>p:has-text(/^Sponsors \(random order\)$/))
 discord.com##div[class^=wrapper_]:has([class^=questPromoContent_])
 discord.com##div[class^='questsContainer']
 discord.com##div:has(>div[class^='rewardTileWrapper_'])
-discord.com##div[aria-label="Activities"] div[aria-label]:has(h1:has-text(/^Promoted$/))
+discord.com##div[aria-label="Activities"] div[aria-label]:has(span:has-text(/^Promoted$/))
 discord.com##section[aria-label="Application Launcher"] div:has(>div:has-text(/^Promoted Games$/))
 discord.com##div[id^='popout_']:has(h2:has-text(/^Quest Available!/))
 discord.com##nav>div:has-text(/^Quests$/)
