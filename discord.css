@@ -55,6 +55,9 @@ div[aria-label="Orbs Exclusives"] {display: none}
 nav[class$='-privateChannels'] li:has(a[href='/quest-home']) {display: none}
 nav[class^='privateChannels_'] li:has(a[href='/quest-home']) {display: none}
 
+/* quests button on the user popup (next to the account switcher) */
+div[class^='orbWalletFooter_']>button:nth-child(1) {display: none}
+
 /* 
 popup about how quests have moved or some shit. probably not a reliable selector since this svg id is likely generated
 but it probably won't exist for long anyway
