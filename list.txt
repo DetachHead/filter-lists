@@ -119,6 +119,7 @@ consequence.net##div.native-ad-large
 chatgpt.com##[data-testid="bazaar-action-bar-observer"]~div:has(*:has-text(/^Ad$/))
 chatgpt.com##.transition-opacity:has(*:has-text(/^Ad$/))
 chatgpt.com##div[data-conversation-screenshot-content]>:has(*:has-text(/^Ad$/))
+chatgpt.com##[data-conversation-ads-supplement]
 browsererrors.net##aside:has(>small:has-text(/^Advertisement$/))
 distrosea.com##a[rel=sponsored]
 ||assets.msn.com/content/v1/cms/api/amp/Document/*$domain=bing.com
