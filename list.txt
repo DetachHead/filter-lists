@@ -122,6 +122,9 @@ chatgpt.com##div[data-conversation-screenshot-content]>:has(*:has-text(/^Ad$/))
 chatgpt.com##[data-conversation-ads-supplement]
 browsererrors.net##aside:has(>small:has-text(/^Advertisement$/))
 distrosea.com##a[rel=sponsored]
+eu.startpage.com##div[aria-label='One quick step, then back to private search.']
+eu.startpage.com##div[aria-label="We're sorry to interrupt this search."]
+eu.startpage.com##html:style(overflow: auto !important;)
 ||assets.msn.com/content/v1/cms/api/amp/Document/*$domain=bing.com
 ||media.ethicalads.io/media/client/ethicalads.min.js
 
