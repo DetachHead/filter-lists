@@ -11,3 +11,6 @@ facebook.com##div[data-is-pull-to-refresh-allowed] [data-mcomponent="ServerImage
 
 ! devtools blockers:
 fmovies.*,fmoviesz.to,fmovies24.to##+js(nostif, /devToolsDetected/)
+
+! banners that force you to sign in to use the site:
+www.reddit.com##div#desktop-dynamic-upsell-dialog
