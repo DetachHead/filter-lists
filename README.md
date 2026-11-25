@@ -3,20 +3,30 @@
 > [!IMPORTANT]
 This project was originally called `ublock-filters` but it has since been renamed as it's no loger specific to uBlock Origin. Github should redirect old links, but I recommend updating your settings to point to the new URLs (details below) just to be safe.
 
-## ublock/adguard filters
+## ublock/adguard filters ([subscribe](https://detachhead.github.io/filter-lists/))
 
-### [`list.txt`](./list.txt)
+### Recommended lists
 
-Ads, malicious sites and right click/devtools blockers (recommended for all users)
+These are the lists I recommend to all users. You can subscribe to all of them with a single list using [`list.txt`](./list.txt).
+
+#### [`ads.txt`](./ads.txt)
+
+Ads, malicious sites and right click/devtools blockers
 
 > [!NOTE]
 > This list does not block many ads on its own -- it's intended to be used in addition to the the mainstream ad blocking lists (eg. easylist, adguard, etc.). I try to upstream them to one of those lists when I can, but not all of the ads this list blocks are considered ads by some upstream list maintainers for some reason ([example](https://github.com/easylist/easylist/pull/24724))
 
-### [`annoyances.txt`](./annoyances.txt)
+#### [`enshittification.txt`](./enshittification.txt)
 
-Annoying buttons, buttons in navs that are rarely used (more opinionated, so you may not agree with everything it blocks)
+Prevents attempts from websites to block you from using them (eg. forcing you to sign in), or from using specific brower features sich as right clicking to save an image or open devtools
 
-### [subscribe](https://detachhead.github.io/filter-lists/)
+### Extra lists
+
+More opinionated, so you may not agree with everything blocked by these lists
+
+#### [`annoyances.txt`](./annoyances.txt)
+
+Annoying buttons, buttons in navs that are rarely used
 
 ## discord adblocker
 
