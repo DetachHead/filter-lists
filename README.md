@@ -1,8 +1,5 @@
 # detachhead's filter lists
 
-> [!IMPORTANT]
-This project was originally called `ublock-filters` but it has since been renamed as it's no loger specific to uBlock Origin. Github should redirect old links, but I recommend updating your settings to point to the new URLs (details below) just to be safe.
-
 ## ublock/adguard filters ([subscribe](https://detachhead.github.io/filter-lists/))
 
 ### Recommended lists
