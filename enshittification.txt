@@ -1,0 +1,13 @@
+! Title: detachhead's anti-enshittification list
+! Expires: 1 day
+! Homepage: https://github.com/DetachHead/filter-lists
+!
+! GitHub issues: https://github.com/DetachHead/filter-lists/issues
+! GitHub pull requests: https://github.com/DetachHead/filter-lists/pulls
+
+! right click blockers:
+instagram.com##:xpath('//div[./img]/following-sibling::div[not(./*)]')
+facebook.com##div[data-is-pull-to-refresh-allowed] [data-mcomponent="ServerImageArea"] img:style(pointer-events: all !important)
+
+! devtools blockers:
+fmovies.*,fmoviesz.to,fmovies24.to##+js(nostif, /devToolsDetected/)
