@@ -14,3 +14,4 @@ fmovies.*,fmoviesz.to,fmovies24.to##+js(nostif, /devToolsDetected/)
 
 ! banners that force you to sign in to use the site:
 www.reddit.com##div#desktop-dynamic-upsell-dialog
+www.reddit.com##body:style(overflow: visible !important)
